@@ -1,0 +1,17 @@
+{
+  "name": "bintang-mobil-whatsapp-bridge",
+  "version": "1.0.0",
+  "description": "Local WhatsApp Web QR Gateway Bridge for Bintang Mobil AI",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.13",
+    "axios": "^1.7.9",
+    "pino": "^9.6.0",
+    "qrcode": "^1.5.4",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
